@@ -195,3 +195,91 @@
     padding: 10px 0;
     margin-left: 262px;
 }
+
+.Categorys .container .heading h1 {
+    font-family: var(--heading-font);
+    font-size: 25px;
+    font-weight: 600;
+    color: #252641;
+}
+
+.Categorys .container .heading {
+    padding: 50px 0;
+}
+.Categorys .Categorys-list .Category {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 25px rgba(47, 50, 125, 0.1);
+   width: calc( (100% - 150px) / 4);
+    gap: 30px;
+   padding: 45px;
+}
+.category-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+}
+
+#icon-design {
+    background-color: rgba(73, 187, 189, 0.3);
+}
+
+#icon-development {
+    background-color: rgba(91, 114, 238, 0.3);
+}
+
+#icon-development-2 {
+    background-color: rgba(157, 204, 255, 0.3);
+}
+
+#icon-business,
+#icon-business-2 {
+    background-color: rgba(0, 203, 184, 0.3);
+}
+
+#icon-marketing {
+    background-color: rgba(244, 140, 6, 0.3);
+}
+
+#icon-photography {
+    background-color: rgba(238, 100, 91, 0.3);
+}
+
+#icon-acting {
+    background-color: rgba(37, 38, 65, 0.3);
+}
+
+.category-icon img {
+    display: block;
+    width: 31px;
+    height: 30px;
+}
+.category-name h3 {
+    font-family: var(--heading-font);
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(37, 38, 65, 1);
+    padding: 10px 0;
+}
+.category-disc p {
+    font-family: var(--primary-font);
+    font-size: 16px;   
+    font-weight: 400;   
+    color:rgba(105, 105, 132, 1);
+    width: 100%;
+    text-align: center;
+  }
+.Categorys-list{
+    display: flex;
+  flex-wrap: wrap;
+   gap: 50px;
+   margin-bottom: 70px;
+}
